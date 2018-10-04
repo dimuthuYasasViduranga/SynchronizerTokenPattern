@@ -33,7 +33,6 @@ if (!isset($_COOKIE['stkn'])){
     }
 ?>
 
-
 <!doctype html>
 <html lang="en">
   <head>
