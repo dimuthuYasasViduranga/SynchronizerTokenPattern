@@ -4,7 +4,7 @@ $r=session_id();
 
 if (isset($_POST['username']) && isset($_POST['password'])){
     if($_POST['username'] == "dimuthu" && $_POST['password']=="password123"){
-        $_SESSION['SSE-ST']=$_POST['username'];
+        $_SESSION['ssdUsr']=$_POST['username'];
         $r=session_id();
         setcookie("stkn", $r, time() + (86400 * 0.5), "/"); // 86400 = 1 day  // the cookie is valid for half day.
         //3rd para - expire para - If this parameter is set to 0, the cookie will expire at the end of the session
